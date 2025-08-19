@@ -1,0 +1,36 @@
+{
+  "textos": {
+    "selecioneProduto": "Selecione o produto abaixo:",
+    "tituloInss": "Informe o valor do empréstimo INSS",
+    "tituloFgts": "Informe seu saldo FGTS",
+    "tituloServidor": "Informe o valor do empréstimo para Servidores Públicos",
+    "parcelas": "Parcelas",
+    "parcela": "Parcela",
+    "taxaJuros": "Taxa de juros (ao mês)",
+    "cet": "CET",
+    "fgtsUtilizado": "Será utilizado apenas {valor} do seu saldo de {saldo} para essa operação.",
+    "fgtsLiberado": "Valor liberado",
+    "prazoPagamento": "Prazo médio de pagamento: Antecipação referente ao ano",
+    "vezes": "vezes"
+  },
+  "produtos": [
+    {"value": "inss", "text": "Crédito Consignado - INSS"},
+	{"value": "servidor", "text": "Crédito Consignado - Servidores Públicos"},
+    {"value": "fgts", "text": "Atencipação Do Saldo do FGTS"}
+    
+  ],
+  "inss": {
+    "taxa": 1.85,
+    "parcelas": 96,
+    "cet": "22,00"
+  },
+  "fgts": {
+    "taxa": 0,
+    "prazo": "Antecipação referente ao ano"
+  },
+  "servidor": {
+    "taxa": 1.8,
+    "parcelas": 96,
+    "aviso": "Os valores podem variar de acordo com a margem, a taxa de juros praticada pelo banco e o prazo. As taxas de juros podem chegar até 2,65% ao mês."
+  }
+}
